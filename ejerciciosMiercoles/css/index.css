@@ -1,0 +1,12 @@
+p.introduccion, h1.introduccion, p.introduccion a{ /*se declara el nombre de clase que se quiere modificar*/
+	color: red;
+	background-color: gray;
+	font-family: "Arial", "Comic"; /*tipo de letras*/
+	font-size: 20pt; /*tamaño de la letra*/
+	line-height: 2; /*interlineado*/
+}
+
+p  a{/*decir que se va a aplicar a todas las "a" que esten dentro de "p"*/
+	color: red;
+	text-decoration: none;/*quitar el subrayado del link*/
+}
