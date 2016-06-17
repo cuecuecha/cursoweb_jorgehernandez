@@ -1,0 +1,47 @@
+.verde{
+	background: green;
+}
+
+.rojo{
+	background: red;
+}
+
+.azul{
+	background: blue;
+}
+
+.rosa{
+	background: pink;
+}
+
+
+.caja{ /*posicion absoluta-- posicion dentro de la pagina, se mueve con respecto a la barra*/
+	/*posicion estatica, es la default*/
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+
+/*.caja{ /*no importa si mueves la barra se mantiene en la pagina*/
+	/*position: fixed;
+	top: 300px;
+	bottom: 0px;
+	right: 0px;
+	left: 600px;
+}*/
+
+.cajagrande{ /*hacer que el inicio cambie con respecto al padre*/
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+
+
+div{ /*Para hacer cajas al rededor del texto*/
+	width: 250px;
+	height: 150px;
+	font-size: 30px;
+	float: left; /*acomoda las cajas hacia el lado que quieras*/
+}

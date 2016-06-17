@@ -1,0 +1,129 @@
+body{
+  margin: 0;/*quitar margen que por default estaba*/
+  height: 0;
+  padding: 0;
+  margin-top: -25px;
+  background: black;
+  font-family: Arial, Verdana; 
+  
+}
+
+h1{
+  color: #D7D0D0; 
+  padding: 20px;
+  text-align: center;
+}
+
+.titulo_principal{
+  background: #2E957C;
+}
+
+.menu-navegacion{
+  text-align: center;
+}
+
+.menu-navegacion ul{
+  margin: 10px;
+  padding: 10px;
+}
+
+.menu-navegacion li{
+  display: inline; /*quitar las viñetas*/
+
+}
+
+.menu-navegacion a{
+  margin: 10px;/*margen entre palabras*/
+  padding: 10px;/*margen dentro de la letras y el bloque*/
+  text-decoration: none;
+  background: #2E957C;
+  color: #D7D0D0;
+  border: ridge;
+  border-color: white;
+}
+
+ul{
+  list-style: none; 
+}
+
+.menu-navegacion li.activo a,
+.menu-navegacion li:hover a{
+  background: #064E5B;
+}
+
+.informacion-personal{
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  margin-top: 50px;
+}
+
+.forma{
+  border-radius: 50%;
+}
+
+.justificado{
+  margin: 150px;
+  text-align: justify;
+  color: white;
+}
+
+.posicion-derecha{
+  position: absolute;
+  top: 100px;
+  bottom: 0px;
+  right: 0px;
+  left: 500px;
+  margin: 150px;
+  text-align: justify;
+  color: white;
+}
+.posicion{
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 100px;
+}
+
+.posicion-imag{
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 100px;
+  border-radius: 100%;
+}
+
+.posicion-estudios{
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 500px;
+  margin: 150px;
+  text-align: justify;
+  color: white;
+  font-size: 2em;
+}
+
+.gustos a{
+  margin: 10px;/*margen entre palabras*/
+  padding: 10px;/*margen dentro de la letras y el bloque*/
+  text-decoration: none;
+  background: ##759BFA;
+  color: #D7D0D0;
+  border: ridge;
+  border-color: white;
+}
+
+.gustos a{
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  top: -25px;
+  bottom: 0px;
+  right: 0px;
+  left: 100px;
+  margin: 150px;
+}
