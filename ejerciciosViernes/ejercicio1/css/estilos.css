@@ -60,6 +60,5 @@ p{
   width: 50%;/*se necesita reducir el tamaño del contenedor*/
   text-align: center;
   margin: auto;
-  padding-bottom: 35px;
   border-bottom: 1px solid gray; 
 }
