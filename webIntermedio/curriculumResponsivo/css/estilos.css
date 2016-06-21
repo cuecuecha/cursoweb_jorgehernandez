@@ -1,0 +1,227 @@
+body{
+  margin: 0;/*quitar margen que por default estaba*/
+  height: 0;
+  padding: 0;
+  margin-top: -25px;
+  background: black;
+  font-family: Arial, Verdana; 
+  
+}
+
+h1{
+  color: #D7D0D0; 
+  padding: 20px;
+  text-align: center;
+}
+
+.titulo_principal{
+  background: #2E957C;
+}
+
+.menu-navegacion{
+  text-align: center;
+}
+
+.menu-navegacion ul{
+  margin: 10px;
+  padding: 10px;
+}
+
+.menu-navegacion li{
+  display: inline; /*quitar las viñetas*/
+
+}
+
+.menu-navegacion a{
+  margin: 0px;/*margen entre palabras*/
+  padding: 10px;/*margen dentro de la letras y el bloque*/
+  text-decoration: none;
+  background: #2E957C;
+  color: #D7D0D0;
+  border: ridge;
+  border-color: white;
+}
+
+ul{
+  list-style: none; 
+}
+
+.menu-navegacion li.activo a,
+.menu-navegacion li:hover a{
+  background: #064E5B;
+}
+
+.informacion-personal{
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  margin-top: 50px;
+}
+
+.forma{
+  border-radius: 50%;
+}
+
+.justificado{
+  margin-top: 100px;
+  text-align: justify;
+  color: white;
+}
+
+.posicion-derecha{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: white;
+}
+.posicion{
+  float: right;
+}
+
+.texto{
+  display: inline;
+  color: white;
+}
+
+.posicion-imag{
+  display: inline;
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+
+.posicion-estudios{
+  float: right;
+  color: white;
+  top: 80px;
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+.posicion-imagsec{
+  display: inline;
+  position: relative;
+  left: 70px;
+  top: 100px;
+}
+
+.posicion-estudiossec{
+  float: right;
+  color: white;
+  top: 150px;
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+.posicion-imagpre{
+  display: inline;
+  position: relative;
+  left: 70px;
+  top: 180px;
+}
+
+.posicion-estudiospre{
+  float: right;
+  color: white;
+  top: 220px;
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+.posicion-imaguni{
+  display: inline;
+  position: relative;
+  left: 70px;
+  top: 250px;
+}
+
+.posicion-estudiosuni{
+  float: right;
+  color: white;
+  top: 270px;
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+.gusto{
+ display: inline;
+ position: relative;
+ top: 0px;
+ bottom: 0px;
+ right: 0px;
+ left: 100px;
+ color: white;
+} 
+
+.gustos a{
+  display: inline;
+  position: relative;
+  left: 80px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  text-decoration: none;
+  color: #D7D0D0;
+  margin: 10px;/*margen entre palabras*/
+  padding: 10px;/*margen dentro de la letras y el bloque*/
+  border: ridge;
+  border-color: white;
+}
+
+
+.gusto-pelicula{
+  display: inline;
+ position: relative;
+ top: 10px;
+ bottom: 0px;
+ right: 0px;
+ left: 100px;
+ color: white;
+
+} 
+
+.gustos-pelicula a{
+ display: inline;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 20px;
+  bottom: 0px;
+  text-decoration: none;
+  color: #D7D0D0;
+  margin: 10px;/*margen entre palabras*/
+  padding: 10px;/*margen dentro de la letras y el bloque*/
+  border: ridge;
+  border-color: white;
+}
+
+.gusto-admiro{
+  display: inline;
+ position: relative;
+ top: 60px;
+ bottom: 0px;
+ right: 0px;
+ left: 100px;
+ color: white;
+
+} 
+
+.gustos-admiro a{
+ display: inline;
+  position: relative;
+  left: 80px;
+  right: 0px;
+  top: 60px;
+  bottom: 0px;
+  text-decoration: none;
+  color: #D7D0D0;
+  margin: 10px;/*margen entre palabras*/
+  padding: 10px;/*margen dentro de la letras y el bloque*/
+  border: ridge;
+  border-color: white;
+}
+

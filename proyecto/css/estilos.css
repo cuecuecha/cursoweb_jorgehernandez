@@ -318,3 +318,10 @@ body{
 	margin: auto;
 }*/
 
+.primary-contente, .secundary-content{
+	width: 75%;
+	padding-left: 180px;
+	padding-right: 160px;
+	margin: auto;
+	max-width: 1000px;
+}

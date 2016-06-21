@@ -1,0 +1,44 @@
+.titulo{
+	color: red;
+}
+
+.mediana{
+	display: block;/*va estar oculta la info dentro de la clase*/
+	text-align: justify;
+}
+
+@media (min-width: 1050px) {
+	.titulo3{
+	 	background-color: green;
+		
+	}
+}
+
+
+@media (min-width: 850px)and (max-width: 1050px) {
+	.titulo2{
+	 	font-size: 50px;
+	 	color: blue;
+		
+	}
+}
+
+@media (min-width: 375px) and (max-width: 850px) {
+	.titulo1{
+		display: none;
+		
+	}
+}
+
+@media (max-width: 375px ) {/*dentro del paretesis la resolucion-->Siempre al 
+			final de la pagina*/
+			/*375px iphone 6*/
+	.titulo{
+		background-color: black; 
+	}
+
+	.mediana{
+		display: inline;/*Aparece el texto al momento de que reconoce
+						la resolución*/
+	}
+}
