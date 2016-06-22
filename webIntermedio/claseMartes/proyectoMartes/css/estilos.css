@@ -1,0 +1,117 @@
+
+/*---SUbtitulos Menú---*/
+.sub-menu{
+	font-family: fantasy;
+	color: #FF5050;
+	font-size: 30px;
+}
+
+.alimentos{
+	font-family: fantasy;
+	color: gray;
+	font-weight: normal;
+}
+
+.unete{
+	margin-left: 80px;
+	font-family: fantasy;
+	color: gray;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+.alimentos-cantidad{
+	font-family: arial;
+	color: gray;
+}
+
+/
+/*---Viñetas---*/
+.quitar-padding{
+	padding-left: 25px;
+}
+
+
+.jumbotron {
+	background-color: black;
+	color: white;
+}
+
+.container-fluid{
+	background-color: black;
+	color: white;
+}
+.navbar-header{
+	background-color: black;
+	color: white;
+}
+.navbar-collapse{
+	background-color: black;
+	color: white;
+}
+.nav{
+	background-color: black;
+	color: white;
+}
+
+.btn{
+	background-color: #BEBBBB;
+}
+
+.center{
+	text-align: center;
+}
+
+
+.asterisco{
+	color: red;
+	font-size: 20px;
+}
+
+.boton-nombre{
+	margin-left: 80px;
+	padding: 10px;
+	background-color: white;	
+	border: 1px solid #C8C0C0;
+	width: 200px;
+}
+
+.boton-experiencia{
+	margin-left: 80px;
+	padding: 30px;
+	background-color: white;	
+	border: 1px solid #C8C0C0;
+	width: 250px;
+}
+
+.boton-last{ 
+	margin-left: 80px;
+	padding: 10px;
+	width: 200px;
+	background-color: white;	
+	border: 1px solid #C8C0C0;
+}
+
+.btn-group{
+	background: black;
+	color: white;
+	text-align: center;
+	left: 120px;
+}
+
+
+/*-----CONTACTO----*/
+.contacto{
+	margin-left: 80px; 
+	font-family: fantasy;
+	color: #FF5050;
+	font-size: 40px;
+}
+
+.sucu-tam{
+	font-family: fantasy;
+	color: gray;
+	font-weight: normal;
+	font-size: 25px;
+}
+

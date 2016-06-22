@@ -1,0 +1,102 @@
+a:link{/*ya se visito ese link*/
+	color: red;
+}
+
+a:visited{
+	color: green;
+}
+
+a:hover{/*cuando este el punto, el link cambia de color*/
+	color: pink;
+}
+
+a:active{/*cuando lo presionas*/
+	color: blue;
+}
+
+a.link-editado:hover{
+	color: purple;
+}
+
+.cuadrito{
+	background-color: green;
+	width: 50%;
+	padding: 20px;
+}
+
+.cuadrito:hover{
+	background-color: #E596F9
+}
+
+.lector{
+	width: 50%;
+	padding: 10px;
+	border: 2px solid red;
+}
+
+.lector:focus{/*presionar click y cambia color de fondo*/
+	background-color: #FEC9C9;
+	color: white;
+	outline: none;/*fondo al rededor del cuadro de texto*/
+}
+
+img{
+	opacity: .5;
+}
+
+img:hover{/*con hover, al tener el cursor se vuelve aclarar la imagen*/
+	opacity: 1;
+}
+
+.dropdown{
+	position: relative;/*Apartir de la posicion en la que esta*/
+	display: inline-block;
+}
+.dropbtn{
+	background-color: #0E1E9A;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+}
+
+.drop-contenido{
+	display: none;
+	position: absolute;/*Apartir del contenedor*/
+	top: 0px;
+	left: 105px;
+	background-color: #f1f1f1;
+	border: 1px solid black;
+	width: 100%;
+}
+.drop-contenido a{
+	color: black;
+	padding: 15px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .drop-contenido{
+	display: block;
+}
+
+.drop-contenido a:hover{
+	background-color: gray;
+}
+
+.cuadro{
+	width: 100px;
+	height: 100px;
+	background-color: #62B5F5;
+	/*transition: width 2s;/*transicicón*/
+	transition: width 2s, height 2s;
+	-webkit-transition: width 2s, height 2s;
+	transform: rotate(20deg);
+
+}
+
+.cuadro:hover{
+	width: 200px;
+	height: 200px;
+
+}
