@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Contenido</title>
+	</head>
+	<body>
+		<button id="crear">Crear texto</button>
+		<div id="div1"></div>
+		<button id="cambiar">Crear texto</button>
+		
+		<script type="text/javascript">
+			document.getElementById("crear").onclick = function(){
+			document.getElementById("div1").innerHTML="<h1>Hola mundo otra vez</h1>";
+			}
+			document.getElementById("cambiar").onclick = function(){
+				document.getElementById("div1").innerHTML = "Adios"
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Eventos</title>
+  </head>
+  <body>
+    <center>
+     <button id="boton">Click</button>  
+    </center>
+
+    <script type="text/javascript">
+      document.getElementById("boton").onclick = function() {
+         alert("Hiciste click");
+      }
+
+       document.getElementById("boton").onmouseover = function() {
+         alert("Pasaste el mouse");
+      }
+
+       document.getElementById("boton").onmouseout = function() {
+         alert("Quitaste el mouse");
+      }
+    </script>
+  </body>
+</html>
