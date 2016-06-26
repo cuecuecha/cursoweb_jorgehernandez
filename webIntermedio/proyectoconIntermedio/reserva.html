@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Reservación</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="css/estilos.css">
+
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#">Mamma Mia</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li><a href="index.html">MENÚ<span class="sr-only">(current)</span></a></li>
+			        <li><a href="templos.html">TEMPLOS</a></li>
+			        <li><a href="unete.html">SÉ PARTE DE NOSOTROS</a></li>
+			        <li><a href="contacto.html">CONTACTO</a></li>
+  			        <li class="active"><a href="reserva.html">ORDENA</a></li>
+			      </ul>
+			      
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+		</nav>
+			
+		<div class="jumbotron center">
+		  <h1>Pizzeria Mamma Mia</h1>
+		  <p>La pizza es el mejor amigo del hambre</p>
+		</div>
+
+		<!--FORMULARIO/!-->
+		<div class="form-horizontal" id="desaparece">
+		  <div class="form-group">
+		    <label for="exampleInputName2" class="col-sm-2 control-label">Orden de la Mesa</label>
+		    <div class="col-sm-10">
+		      <input type="text" id="noMesa" class="form-control" id="exampleInputName2" placeholder="No. Mesa">
+		    </div>
+		  </div>
+		  <div class="form-inline form-group control-label">
+			  	<div class="col-sm-2">
+			       <label for="exampleInputName2" class="control-label">Adultos</label>
+			        <select class="form-control" id="noPersona">
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					</select>
+			  	</div>
+			
+
+		    	<div class="col-sm-2">
+					<label for="exampleInputName2">Niños</label>
+		     		<select class="form-control" id="noNino">
+					  <option>0</option>
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					</select>
+		  		 </div>
+		     </div><br>
+
+		  <div class="form-inline form-group control-label">
+		    <div class="col-sm-4">
+		     <label for="exampleInputName2">Tamaño</label>
+		     		<select class="form-control" id="noTamano">
+					  <option>Chica</option>
+					  <option>Mediana</option>
+					  <option>Monster Slice</option>
+					</select>
+		    </div>
+
+		     <div class="col-sm-2">
+		     <label for="exampleInputName2">Pizza</label>
+
+		     		<select class="form-control" id="noPlatillo">
+					  <option>Hawaiana</option>
+					  <option>Mexicana</option>
+					  <option>4 Quesos</option>
+					  <option>Chilaquiles</option>
+					</select>
+		    </div>
+		    <div class="col-sm-2">
+		     <label for="exampleInputName2">No. Pizzas</label>
+		     		<select class="form-control" id="noPizza">
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					</select>
+		    </div>
+		  </div> <br>
+
+
+		  <div class="form-group">
+		    <label for="exampleInputName2" class="col-sm-2 control-label">Notas de la Mesa</label>
+		    <div class="col-sm-10">
+		      <textarea name="textarea" class="form-control" rows="3" id="notas"></textarea>
+		    </div>
+		  </div>
+
+		   <div class="control-label">
+			
+			  <button class="btn btn-primary" id="envio">Enviar</button>
+			</div>
+		<!--Cierra formulario/!-->
+		</div>
+
+		<div class="alimentos">
+		<div class="center">
+			<h1 id="comprobante" class="sub-menu"></h1>
+		</div>
+		<h3 id="genera" ></h3>
+		<h3 id="persona"></h3>
+		<h3 id="nino"></h3>
+		<h3 id="noPizzas"></h3>
+		<h3 id="tamano"></h3>
+		<h3 id="platillo"></h3>
+		<h3 id="adicional"></h3>
+		<h2 id="total" class="center"></h2>
+		</div>
+		<h1 id="generaNoMesa"><br><br></h1>
+		<div class="jumbotron center">
+		  <h1>"COMPRA UNA PIZZA QUE DEMUESTRE TU AMOR"</h1>
+		</div>
+	</div>
+	
+	<script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/cuenta.js"></script>
+    
+  
+	</body>
+</html>
