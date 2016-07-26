@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+	<meta charset="UTF-8">
+	<!--Internet explorer/!-->
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML5</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!--Tiene que ir abajo para poder sobreescribir lo de boostrap/!-->
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	
+	<div class="row">
+		<div class="col-md-12">
+			<!--Menu de navegacion/!-->
+			<nav class="navbar navbar-default">
+				
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">Mi empresa</a>
+
+					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-personal">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+				
+					<div  class="collapse navbar-collapse" id="menu-personal">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Quiénes Somos</a>
+							</li>
+							<li>
+								<a href="#">Productos</a>
+							</li>
+						</ul>
+					</div>
+
+
+			</nav>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-4 show hidden-md hidden-lg">
+		<!--Al agregar img-responive, se ajusta al contenedor/!-->
+			<img src="img/corazon.jpg" class="img-responsive ">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+			<button class="btn btn-primary tn-lg btn-block">Button</button>
+		</div>
+		<div class="col-md-4">
+			<a href="#" class="btn btn-warning">Link
+																					<span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+
+			</a>	
+		</div>
+		<div class="col-md-4">
+			<input class= "btn btn-danger" type="submit" value="Submit">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+		<!--Al agregar img-responive, se ajusta al contenedor/!-->
+			<img src="img/corazon.jpg" class="img-responsive show hidden-xs hidden-sm">
+		</div>
+	</div>
+
+	<div class="dropup">
+  <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Secundario
+    <span class="glyphicon glyphicon-triangle-top"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
