@@ -15,12 +15,20 @@
 }
 
 
-.hr{
-    height: 1px;
-    color: white;
+
+/* CSS Document */
+
+
+.men{
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    word-wrap:break-word !important;
+    }
+
+.submenu{
+    line-height: 16px;
 }
-
-
 .toggle,
 [id^=drop] {
     display: none;
@@ -30,11 +38,7 @@
 nav { 
     margin:0;
     padding: 0;
-}
-
-#back:hover{
-    color: #41beef;
-    background-color: #252525;
+    background-color: white;
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -49,7 +53,6 @@ nav:after {
 /* Removing padding, margin and "list-style" from the "ul",
  * and adding "position:reltive" */
 nav ul {
-    
     padding:0;
     margin:0;
     list-style: none;
@@ -60,11 +63,13 @@ nav ul {
 nav ul li {
     margin: 0px;
     display:inline-block;
-    float: left;
+    
+    
     }
 
 /* Styling the links */
 nav a {
+    /*float: right;*/
     display:block;
     padding:14px 20px;  
     color: black;
@@ -72,12 +77,18 @@ nav a {
     text-decoration:none;
 }
 
+.link{
+    background-color: #444;
+    color: white;
+    border-bottom: 1px solid white;
+}
 
 nav ul li ul li:hover { background: #000000; }
 
 /* Background color change on Hover */
 nav a:hover { 
-    background-color: #000000; 
+    background-color: #000000;
+    color: #41beef;
 }
 
 /* Hide Dropdowns by Default
@@ -115,22 +126,14 @@ nav ul ul ul li {
 
     
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
+li > a:after { content:  ' '; }
 li > a:only-child:after { content: ''; }
 
 
 /* Media Queries
 --------------------------------------------- */
 
-@media all and (max-width : 768px) {
-
-    #logo {
-        display: block;
-        padding: 0;
-        width: 100%;
-        text-align: center;
-        float: none;
-    }
+@media (max-width : 768px) {
 
     nav {
         margin: 0;
@@ -146,23 +149,20 @@ li > a:only-child:after { content: ''; }
     /* Stylinf the toggle lable */
     .toggle {
         display: block;
-        background-color: #254441;
         padding:14px 20px;  
-        color:#FFF;
         font-size:17px;
         text-decoration:none;
         border:none;
-    }
-
-    .toggle:hover {
-        background-color: #000000;
     }
 
     /* Display Dropdown when clicked on Parent Lable */
     [id^=drop]:checked + ul {
         display: block;
     }
-
+    nav{   
+        font-family: "Arial Black", Gadget, sans-serif;
+text-transform: uppercase;
+    }
     /* Change menu item's width to 100% */
     nav ul li {
         display: block;
@@ -178,30 +178,27 @@ li > a:only-child:after { content: ''; }
         padding: 0 80px;
     }
 
-    nav a:hover,
-    nav ul ul ul a {
+    nav a:hover {
         background-color: #000000;
+        color: #41beef;
     }
+
   
     nav ul li ul li .toggle,
     nav ul ul a,
   nav ul ul ul a{
         padding:14px 20px;  
-        color:#FFF;
+        color: white;
         font-size:17px; 
     }
   
   
-    nav ul li ul li .toggle,
-    nav ul ul a {
-        background-color: #212121; 
-    }
 
     /* Hide Dropdowns by Default */
     nav ul ul {
         float: none;
         position:static;
-        color: #ffffff;
+        color: white;
         /* has to be the same number as the "line-height" of "nav a" */
     }
         
@@ -215,6 +212,7 @@ li > a:only-child:after { content: ''; }
     nav ul ul li {
         display: block;
         width: 100%;
+        background-color: black;
     }
 
     nav ul ul ul li {
