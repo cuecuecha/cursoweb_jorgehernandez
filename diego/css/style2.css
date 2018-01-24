@@ -137,6 +137,14 @@ li > a:only-child:after { content: ''; }
 
     nav {
         margin: 0;
+
+    }
+    nav .fondo{
+        background: rgba(65, 190, 239, 0.9);
+    }
+    nav .fondo:hover{
+        background-color: black;
+        color: white;
     }
 
     /* Hide the navigation menu by default */
